@@ -37,4 +37,13 @@ public class RomanToIntTest {
         int actual= RomanToInt.convertRomanToInt("I");
         Assertions.assertEquals(1,actual);
     }
+    @Test
+    public void testRomanIV(){
+        int actual= RomanToInt.convertRomanToInt("IV");
+        Assertions.assertEquals(4,actual);
+    }
+    @Test
+    public void testRomanComplex(){
+        int actual = RomanToInt.convertRomanToInt("MMCMXCIX");
+    }
 }
