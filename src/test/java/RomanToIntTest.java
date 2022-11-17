@@ -45,5 +45,6 @@ public class RomanToIntTest {
     @Test
     public void testRomanComplex(){
         int actual = RomanToInt.convertRomanToInt("MMCMXCIX");
+        Assertions.assertEquals(2999, actual);
     }
 }
